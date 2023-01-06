@@ -4,18 +4,20 @@
 <meta charset="utf-8"> 
 <link rel="stylesheet" href="./style.css">
 <style>
-    
+  
+  
+  
+  
+  
 .container-2{
-    width: 100%;
-    height: 35%;
-        background-color: gray;
+         width:35%;
+         height: auto;
+         background-color: antiquewhite;
      
       
-        display: inline-block;
-   
-        font-size: 23px;
-        size: 50px;
-        text-align: center;
+        display: block;
+        font-size: 20px;
+       
     }
 </style>  
 </head>
@@ -40,44 +42,48 @@
     </div>
     <div class="container-2">
 <form action="" method="get" >
-<table border="0">
-<tr>
-<td>Ad :</td>
 
-<td><input type="text" name="ad" id="ad" required placeholder="Lütfen Adınızı Girin"></td>
+İsminiz: 
 
-</tr>
 
-<tr>
-<td>Soyad :</td>
-<td><input type="text"name="soyad"id="soyad" required placeholder="Lütfen Soyadınızı Girin"></td>
-</tr>
-<tr>
+
+<input type="text" name="ad" id="ad" required placeholder="Lütfen Adınızı Girin">
+
+<hr><br>
+
+
+soy isminiz:
+
+
+<input type="text"name="soyad"id="soyad" required placeholder="Lütfen Soyadınızı Girin">
+<hr><br>
+
  
-<td colspan="2">
+cinsiyet :
+
 KADIN<input type="radio"name="cinsiyet" id="cinsiyet"  value="kadın">
 ERKEK<input type="radio" name="cinsiyet" id="cinsiyet" value="erkek">
-</td>
- 
-</tr>
-<tr>
-<td>YAŞ</td>
-<td><input type="number" name="yas" id="yas" min="18" max="88"></td>
-</tr>
- 
-<tr>
-<td>MAİL:</td>
-<td><input type="email" name="mail" id="mail" required></td>
-</tr>
- 
-<tr>
-<td colspan="2">
+
+ <hr><br>
+
+
+yasınız:
+
+<input type="number" name="yas" id="yas" min="18" max="88">
+
+<hr><br>
+
+mail adresiniz : 
+
+<input type="email" name="mail" id="mail" required>
+
+
 <input type="submit" name="kaydet" id="kaydet" value="KAYDET">
 <input type="reset" name="sil" id="sil" value="TEMİZLE">
        
-</td>
-</tr>        
-    </table>    
+<hr><br>
+      
+  
  
 </form>
     </div>
